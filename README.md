@@ -16,11 +16,11 @@ Below are the commands that need to be supported along with the above descriptio
       ● Deposit - Takes 2 parameters as input. First is the account number and the second is the deposit amount. Returns the balance post deposit.
       ● Withdraw - Takes 2 parameters as input. First is the account number and the second is the withdrawal amount. Returns the balance post withdrawal.
       ● Balance - Takes 1 parameter that is the account number. Returns current balance.
-      ● Transfer - Takes 3 parameters. First is the source account number, second is the target account number and the last one is the amount to transfer. Returns status as successful
-or failure.
+      ● Transfer - Takes 3 parameters. First is the source account number, second is the target account number and the last one is the amount to transfer. Returns status as successful or failure.
               ○ All the deposit and withdrawal rules are applicable for transfer operation as well.
               
 Sample Input and Output:
+
       Account creation:
           ● Input: Create “Amy”
             Output: 1001
@@ -55,7 +55,7 @@ Sample Input and Output:
           ● Input: Withdraw 1001 5000
             Output: Only 3 withdrawal are allowed in a day
             
-          Transfer:
+      Transfer:
           ● Input: Transfer 1001 1002 5000
             Output: Successful
           ● Input: Transfer 1002 1004 500
